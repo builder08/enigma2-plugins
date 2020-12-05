@@ -1,325 +1,256 @@
+# Copyright (C) 2005 THE tuxbox-enigma'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the tuxbox-enigma package.
+# Automatically generated, 2005.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-28 23:06+0000\n"
-"PO-Revision-Date: 2020-06-07 16:08+0200\n"
-"Last-Translator: JC 2020 <dk-translation@protonmail.com>\n"
-"Language-Team: Danskholdet <dk-translation@pm.me>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2018-12-29 00:28+0100\n"
+"PO-Revision-Date: 2008-05-12 14:00+0100\n"
+"Last-Translator: Gaj1 <jagg@tdcadsl.dk>\n"
+"Language-Team: Gaj1 <jagg@tdcadsl.dk>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
-"X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Language: da\n"
 
 msgid ""
 "A mount entry with this name already exists!\n"
 "Update existing entry and continue?\n"
 msgstr ""
-"En mount post med dette navn findes allerede!\n"
-"Opdater eksisterende post og fortsæt?\n"
-
-msgid "AUTOFS (mount as needed)"
-msgstr "AUTOFS (mount efter behov)"
 
 msgid "Active"
-msgstr "Aktiv"
+msgstr ""
 
 msgid ""
 "Active/\n"
 "Inactive"
 msgstr ""
-"Aktiv/\n"
-"Inaktiv"
 
 msgid "Add a new NFS or CIFS mount point to your Receiver."
-msgstr "Tilføj et ny NFS eller CIFS mount point til din modtager."
+msgstr ""
 
 msgid "Add new network mount point"
-msgstr "Tilføj nyt netværks-mount punkt"
-
-msgid "Adding schedule..."
-msgstr "Tilføj tidsplan..."
-
-msgid "Are you sure you want to remove your network mount ?"
-msgstr "Er du sikker på at du ønsker at fjerne dit neværksmount?"
+msgstr ""
 
 msgid ""
 "Are you sure you want to save this network mount?\n"
 "\n"
 msgstr ""
-"Er du sikker på, at du vil gemme dette netværks-mount?\n"
-"\n"
 
 msgid "Attempt to mount shares again"
-msgstr "Forsøger at mounte delinger igen"
+msgstr ""
 
 msgid "Attempt to recover lost mounts (in background)"
-msgstr "Forsøg at genoprette mistede mounts (i baggrunden)"
+msgstr ""
 
 msgid "Browse network neighbourhood"
-msgstr "Gennemse netværksnabolag"
+msgstr ""
 
 msgid "CIFS share"
-msgstr "CIFS deling"
+msgstr ""
 
 msgid "Cancel"
-msgstr "Afbryd"
+msgstr ""
 
 msgid "Change hostname"
-msgstr "Skift værtsnavn"
+msgstr ""
 
 msgid "Change the hostname of your Receiver."
-msgstr "Skift værtsnavn på din modtager."
+msgstr ""
 
 msgid "Close"
-msgstr "Afslut"
+msgstr ""
 
 msgid "Delete"
-msgstr "Slet"
+msgstr ""
 
 msgid "Delete mount"
-msgstr "Slet mount"
+msgstr ""
 
 msgid "Dir:"
-msgstr "Bib:"
+msgstr ""
 
-msgid "Do you want to enter a username and password for this host?"
-msgstr "Vil du indtaste et brugernavn og adgangskode til denne vært?"
-
-msgid "Enigma2 (mount using enigma2)"
-msgstr "Enigma2 (mount via enigma2)"
-
-msgid "Enigma2 old format (mount using linux)"
-msgstr "Enigma2 ældre format (mount via linux)"
+msgid "Do you want to enter a username and password for this host?\n"
+msgstr ""
 
 msgid "Enter IP to scan..."
-msgstr "Indtast IP der skal gennemsøges..."
+msgstr ""
 
 msgid "Enter new hostname for your Receiver"
-msgstr "Indtast nyt værtsnavn til din modtager"
-
-msgid "Enter options:"
-msgstr "Enter tilvalg:"
+msgstr ""
 
 msgid "Enter password:"
-msgstr "Indtast adgangskode:"
-
-msgid "Enter share directory:"
-msgstr "Indtast delt mappe:"
-
-msgid "Enter share name:"
-msgstr "Indtast delingsnavn:"
+msgstr ""
 
 msgid "Enter user and password for host: "
-msgstr "Indtast brugernavn og adgangskode for vært: "
+msgstr ""
 
 msgid "Enter username:"
-msgstr "Indtast brugernavn:"
+msgstr ""
 
 msgid "Expert"
-msgstr "Ekspert"
-
-msgid "FSTAB (mount at boot)"
-msgstr "FSTAB (mount under opstart)"
+msgstr ""
 
 msgid "Finished restarting your network"
-msgstr "Genstart af dit netværk gennemført"
+msgstr ""
+
+msgid "Host name"
+msgstr ""
+
+msgid "Host:"
+msgstr ""
 
 msgid "IP Address"
-msgstr "IP-adresse"
+msgstr ""
 
 msgid "IP:"
-msgstr "IP:"
+msgstr ""
 
-msgid "Local share name"
-msgstr "Lokal delingsnavn"
+msgid "Local mountpoint"
+msgstr ""
 
 msgid "Manage network shares"
-msgstr "Administrer netværksdelinger"
+msgstr ""
 
 msgid "Manage your network shares..."
-msgstr "Administrer dine netværksdelinger..."
-
-msgid "Mount Again"
-msgstr "Mount igen"
-
-msgid "Mount Manager"
-msgstr "Mount-håndtering"
-
-msgid "Mount Viewer"
-msgstr "Mount fremviser"
+msgstr ""
 
 msgid "Mount again"
-msgstr "Mount igen"
+msgstr ""
 
 msgid "Mount informations"
-msgstr "Mount Informationer"
-
-msgid "Mount manager"
-msgstr "Mount-håndtering"
+msgstr ""
 
 msgid "Mount options"
-msgstr "Mount tilvalg"
+msgstr ""
 
 msgid "Mount type"
-msgstr "Mount type"
+msgstr ""
 
-msgid "Mount using"
-msgstr "Mount vha."
+msgid "Mount view"
+msgstr ""
+
+msgid "MountManager"
+msgstr ""
 
 msgid ""
 "Mounted/\n"
 "Unmounted"
 msgstr ""
-"Mounted/\n"
-"Ikke mounted"
-
-msgid "Mounting network shares..."
-msgstr "Mounter netværksdelinger..."
 
 msgid "Mountpoints management"
-msgstr "Mount-punkter administration"
+msgstr ""
 
 msgid "Mounts editor"
-msgstr "Mounts redigering"
+msgstr ""
+
+msgid "Mounts management"
+msgstr ""
 
 msgid "NFS share"
-msgstr "NFS deling"
+msgstr ""
 
-msgid "Network Browser"
-msgstr "Netværksbrowser"
+msgid "NetworkBrowser"
+msgstr ""
 
 msgid "No network devices found!"
-msgstr "Ingen netværksenhed fundet!"
+msgstr ""
 
 msgid "Password"
-msgstr "Adgangskode"
+msgstr ""
 
 msgid "Please wait for activation of your network mount..."
-msgstr "Vent venligt på aktivering af din netværks-mount..."
+msgstr ""
 
 msgid "Please wait while removing your network mount..."
-msgstr "Vent venligst mens dit netværk-mount fjernes..."
+msgstr ""
 
 msgid "Please wait while updating your network mount..."
-msgstr "Vent venligst mens dit netværk-mount opdateres..."
+msgstr ""
 
 msgid "Please wait while your network is restarting..."
-msgstr "Vent venligst, mens dit netværk genstartes..."
+msgstr ""
 
 msgid "Press OK to activate the settings."
-msgstr "Tryk OK for at aktivere indstillinger."
+msgstr ""
 
 msgid "Press OK to collapse this host"
-msgstr "Tryk på OK for at klappe den vært sammen"
+msgstr ""
 
 msgid "Press OK to edit selected settings."
-msgstr "Tryk på OK for at redigere valgte indstillinger."
+msgstr ""
 
 msgid "Press OK to edit the settings."
-msgstr "Tryk på OK for at redigere indstillinger."
+msgstr ""
 
 msgid "Press OK to expand this host"
-msgstr "Tryk på OK for at udvide denne vært"
+msgstr ""
 
 msgid "Press OK to mount this share!"
-msgstr "Tryk OK for at mount denne share!"
+msgstr ""
 
 msgid "Press OK to mount!"
-msgstr "Tryk OK for at mount!"
+msgstr ""
 
 msgid "Press OK to save settings."
-msgstr "Tryk OK for at gemme indstillinger."
+msgstr ""
 
 msgid "Press OK to select."
-msgstr "Tryk OK for at vælge."
-
-msgid "Re-mount network shares every (in hours)"
-msgstr "Gen-mount netværksdelinger hver (i timer)"
-
-msgid "Really close without saving settings?"
-msgstr "Vil du lukke uden at gemme indstillinger?"
+msgstr ""
 
 msgid "Rescan"
-msgstr "Gennemsøg igen"
-
-msgid "Save"
-msgstr "Gem"
+msgstr ""
 
 msgid "Scan NFS share"
-msgstr "NFS share søgning"
+msgstr ""
 
 msgid "Scan range"
-msgstr "Gennemsøg område"
-
-msgid "Schedule MountAgain"
-msgstr "Planlæg mount igen"
-
-msgid "Schedule a auto remount of your network shares."
-msgstr "Planlæg en automatisk gen-mount af dine netværksdelinger."
+msgstr ""
 
 msgid "Search for network shares"
-msgstr "Søg efter netværksdelinger"
+msgstr ""
 
 msgid "Search for network shares..."
-msgstr "Søg efter netværksdelinger..."
+msgstr ""
 
 msgid "Searching your network. Please wait..."
-msgstr "Søger efter dit netværk. Vent venligst..."
+msgstr ""
 
 msgid "Server IP"
-msgstr "Server IP"
+msgstr ""
 
 msgid "Server share"
-msgstr "Serverdeling"
-
-msgid "Setup Mount Again"
-msgstr "Sæt mount op igen"
-
-msgid "Use as HDD replacement"
-msgstr "Brug som harddisk erstatning"
+msgstr ""
 
 msgid "User management"
-msgstr "Brugeradministration"
+msgstr ""
 
 msgid "Usermanager"
-msgstr "Brugerstyring"
+msgstr ""
 
 msgid "Username"
-msgstr "Brugernavn"
+msgstr ""
 
 msgid "View, edit or delete mountpoints on your Receiver."
-msgstr "Se, rediger eller slet mount points på din modtager."
+msgstr ""
 
 msgid "View, edit or delete usernames and passwords for your network."
 msgstr ""
-"Se, rediger eller slet brugernavne og adgangskoder til dit netværk."
-
-msgid ""
-"You have changed the share name!\n"
-"Update existing entry and continue?\n"
-msgstr ""
-"Du har ændret delingsnavnet!\n"
-"Opdater eksisterende post og fortsæt?\n"
-
-msgid ""
-"Your network interface %s is not properly configured, so a network scan "
-"cannot be done.\n"
-"Please configure the interface and try again."
-msgstr ""
-"Din netværksgrænseflade %s er ikke korrekt konfigureret, så der kan "
-"ikkeudføres en netværkssøgning.\n"
-"Konfigurer venligst grænsefladen og prøv igen."
 
 msgid "Your network mount has been activated."
-msgstr "Dit netværk mount er blevet aktiveret."
+msgstr ""
 
 msgid "Your network mount has been removed."
-msgstr "Dit netværk mount er blevet fjernet."
+msgstr ""
 
 msgid "Your network mount has been updated."
-msgstr "Dit netværk mount er blevet opdateret."
+msgstr ""
+
+msgid "use as HDD replacement"
+msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 plugin - Networkbrowser serbian\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-03 15:01+0000\n"
+"POT-Creation-Date: 2018-12-29 00:28+0100\n"
 "PO-Revision-Date: 2009-09-10 20:32+0100\n"
 "Last-Translator: maja <jovanovic@gmx.ch>\n"
 "Language-Team: veselin & majevica CRNABERZA <jovanovic@gmx.ch>\n"
@@ -26,11 +26,6 @@ msgstr ""
 "Maunt unos sa ovim imenom već postoji!\n"
 "Ažuriraj postojeći unos i nastavi?\n"
 
-msgid ""
-"A mount entry with this name already exists!\n"
-"and is not this share folder, please use a different name.\n"
-msgstr ""
-
 msgid "Active"
 msgstr "Aktivan"
 
@@ -42,16 +37,10 @@ msgstr ""
 "Neaktivan"
 
 msgid "Add a new NFS or CIFS mount point to your Receiver."
-msgstr ""
+msgstr "Dodaj novu CIFS ili  NFS maunt tačku tvom drimboksu."
 
 msgid "Add new network mount point"
 msgstr "Dodaj novu mrežnu tačku za maunt"
-
-msgid "Adding schedule..."
-msgstr ""
-
-msgid "Are you sure you want to remove your network mount ?"
-msgstr ""
 
 msgid ""
 "Are you sure you want to save this network mount?\n"
@@ -79,7 +68,7 @@ msgid "Change hostname"
 msgstr "Promeni ime hosta"
 
 msgid "Change the hostname of your Receiver."
-msgstr ""
+msgstr "Promeni ime hosta svog drimboksa."
 
 msgid "Close"
 msgstr "Zatvori"
@@ -93,32 +82,17 @@ msgstr ""
 msgid "Dir:"
 msgstr "Dir:"
 
-msgid "Do you want to enter a username and password for this host?"
-msgstr "Želite li da postavite korisničko ime i lozinku za ovaj host?"
-
-msgid "Enigma2 (mount using enigma2)"
-msgstr ""
-
-msgid "Enigma2 old format (mount using linux)"
-msgstr ""
+msgid "Do you want to enter a username and password for this host?\n"
+msgstr "Želite li da postavite korisničko ime i lozinku za ovaj host?\n"
 
 msgid "Enter IP to scan..."
 msgstr ""
 
 msgid "Enter new hostname for your Receiver"
-msgstr ""
-
-msgid "Enter options:"
-msgstr "Unesi opcije:"
+msgstr "Unesi novo ime hosta za svoj drimboks"
 
 msgid "Enter password:"
 msgstr "Unesi lozinku:"
-
-msgid "Enter share directory:"
-msgstr "Unesi zajed. direktorijum:"
-
-msgid "Enter share name:"
-msgstr "Unesi zajed. ime:"
 
 msgid "Enter user and password for host: "
 msgstr "Unesi korisnika i lozinku za host: "
@@ -129,11 +103,14 @@ msgstr "Unesi korisničko ime:"
 msgid "Expert"
 msgstr ""
 
-msgid "FSTAB (mount using linux)"
-msgstr ""
-
 msgid "Finished restarting your network"
 msgstr "Završeno restartovanje vaše mreže"
+
+msgid "Host name"
+msgstr ""
+
+msgid "Host:"
+msgstr ""
 
 msgid "IP Address"
 msgstr ""
@@ -141,23 +118,14 @@ msgstr ""
 msgid "IP:"
 msgstr "IP:"
 
-msgid "Local share name"
-msgstr "Lokalno zajed. ime"
+msgid "Local mountpoint"
+msgstr ""
 
 msgid "Manage network shares"
 msgstr "Upravljaj delovima mreže"
 
 msgid "Manage your network shares..."
 msgstr "Upravljaj delovima svoje mreže..."
-
-msgid "Mount Again"
-msgstr ""
-
-msgid "Mount Manager"
-msgstr ""
-
-msgid "Mount Viewer"
-msgstr ""
 
 msgid "Mount again"
 msgstr ""
@@ -171,8 +139,12 @@ msgstr "Maunt opcije"
 msgid "Mount type"
 msgstr "Maunt tip"
 
-msgid "Mount using"
-msgstr ""
+#, fuzzy
+msgid "Mount view"
+msgstr "Maunt tip"
+
+msgid "MountManager"
+msgstr "Maunt menadžer"
 
 msgid ""
 "Mounted/\n"
@@ -180,9 +152,6 @@ msgid ""
 msgstr ""
 "Mauntan/\n"
 "Nemauntan"
-
-msgid "Mounting network shares..."
-msgstr ""
 
 msgid "Mountpoints management"
 msgstr "Upravljanje maunt tačkama"
@@ -196,8 +165,8 @@ msgstr "Upravljanje mauntima"
 msgid "NFS share"
 msgstr "NFS deljenje"
 
-msgid "Network Browser"
-msgstr ""
+msgid "NetworkBrowser"
+msgstr "Pretraživač mreže"
 
 msgid "No network devices found!"
 msgstr "Nije pronađen nijedan mrežni uređaj"
@@ -244,28 +213,13 @@ msgstr "Pritisni OK da sačuvaš postavke."
 msgid "Press OK to select."
 msgstr "Pritisni OK da izabereš."
 
-msgid "Re-mount network shares every (in hours)"
-msgstr ""
-
-msgid "Really close without saving settings?"
-msgstr ""
-
 msgid "Rescan"
-msgstr ""
-
-msgid "Save"
 msgstr ""
 
 msgid "Scan NFS share"
 msgstr ""
 
 msgid "Scan range"
-msgstr ""
-
-msgid "Schedule MountAgain"
-msgstr ""
-
-msgid "Schedule a auto remount of your network shares."
 msgstr ""
 
 msgid "Search for network shares"
@@ -283,9 +237,6 @@ msgstr "Server IP"
 msgid "Server share"
 msgstr "Server "
 
-msgid "Setup Mount Again"
-msgstr ""
-
 msgid "User management"
 msgstr "Korisnikovo upravljanje"
 
@@ -296,7 +247,7 @@ msgid "Username"
 msgstr "Korisn. ime"
 
 msgid "View, edit or delete mountpoints on your Receiver."
-msgstr ""
+msgstr "Vidi, uredi ili obriši maunt tačke na svom drimboksu."
 
 msgid "View, edit or delete usernames and passwords for your network."
 msgstr "Vidi, uredi ili obriši korisn. imena i lozinke sa svoje mreže."
@@ -310,11 +261,5 @@ msgstr "Vaš mrežni maunt je uklonjen."
 msgid "Your network mount has been updated."
 msgstr "Vaš mrežni maunt je ažuriran."
 
-msgid "Use as HDD replacement"
+msgid "use as HDD replacement"
 msgstr ""
-
-#~ msgid "MountManager"
-#~ msgstr "Maunt menadžer"
-
-#~ msgid "NetworkBrowser"
-#~ msgstr "Pretraživač mreže"
