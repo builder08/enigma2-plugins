@@ -6,414 +6,232 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 12:46+0200\n"
+"POT-Creation-Date: 2019-05-25 08:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-SearchPath-0: .\n"
 
-#: src/EPGSearch.py:141
-msgid "%e/%m, %H:%M"
+#, python-format
+msgid " (%d min)"
 msgstr ""
 
-#: src/EPGSearch.py:180
-msgid "Stream"
+#, python-format
+msgid " (%s%d min)"
 msgstr ""
 
-#: src/EPGSearch.py:183
-msgid "DVB-T"
+msgid "Add \"Search event in EPG\" to channel menu"
 msgstr ""
 
-#: src/EPGSearch.py:185
-msgid "DVB-C"
+msgid "Add \"Search event in EPG\" to event menu"
 msgstr ""
 
-#: src/EPGSearch.py:213
-msgid "New Search"
+msgid "Add \"Search\" Button to EPG"
 msgstr ""
 
-#: src/EPGSearch.py:214
-msgid "Add AutoTimer"
+msgid "Add timer"
 msgstr ""
 
-#: src/EPGSearch.py:234
-msgid "IMDb Search"
+msgid "Adds \"Search event in EPG\" item into the channel selection context menu (needs restart GUI)"
 msgstr ""
 
-#: src/EPGSearch.py:235
-msgid "Add Timer"
+msgid "Adds \"Search event in EPG\" item into the event menu (needs restart GUI)"
 msgstr ""
 
-#: src/EPGSearch.py:241
-msgid "Close dialog"
+msgid "Cancel"
 msgstr ""
 
-#: src/EPGSearch.py:247
-msgid "Exit EPG Search"
+msgid "Channel Selection"
 msgstr ""
 
-#: src/EPGSearch.py:248
-msgid "Zap to channel"
+msgid "Choice list"
 msgstr ""
 
-#: src/EPGSearch.py:249 src/EPGSearch.py:274 src/EPGSearch.py:275
-#: src/EPGSearch.py:276
-msgid "Show detailed event information"
+msgid "Choice list EPGSearch"
 msgstr ""
 
-#: src/EPGSearch.py:254
-msgid "IMDB search for highlighted event"
+msgid "Choice list RED Button"
 msgstr ""
 
-#: src/EPGSearch.py:255
-msgid "Add/remove/edit timer for highlighted event"
+msgid "Choosing an encoding. \"UTF-8\" to search for EPG cyrillic."
 msgstr ""
 
-#: src/EPGSearch.py:256
-msgid "Enter new search"
+msgid "Clear history"
 msgstr ""
 
-#: src/EPGSearch.py:257 src/EPGSearch.py:441
-msgid "Show search history"
-msgstr ""
-
-#: src/EPGSearch.py:258
-msgid "Add an AutoTimer for highlighted event"
-msgstr ""
-
-#: src/EPGSearch.py:259
-msgid "Show AutoTimer list"
-msgstr ""
-
-#: src/EPGSearch.py:264
-msgid "Add a record timer for highlighted event"
-msgstr ""
-
-#: src/EPGSearch.py:265
-msgid "Add a zap timer for highlighted event"
-msgstr ""
-
-#: src/EPGSearch.py:270 src/EPGSearch.py:273 src/EPGSearch.py:283
-msgid "Move down a page"
-msgstr ""
-
-#: src/EPGSearch.py:271 src/EPGSearch.py:272 src/EPGSearch.py:282
-msgid "Move up a page"
-msgstr ""
-
-#: src/EPGSearch.py:277
-msgid "Setup menu"
-msgstr ""
-
-#: src/EPGSearch.py:284
-msgid "Move up"
-msgstr ""
-
-#: src/EPGSearch.py:285
-msgid "Move down"
-msgstr ""
-
-#: src/EPGSearch.py:321
-msgid "EPG Search"
-msgstr ""
-
-#: src/EPGSearch.py:435
-msgid "Enter text to search for"
-msgstr ""
-
-#: src/EPGSearch.py:439
-msgid "Import from Timer"
-msgstr ""
-
-#: src/EPGSearch.py:440
-msgid "Import from EPG"
-msgstr ""
-
-#: src/EPGSearch.py:446
-msgid "Import from AutoTimer"
-msgstr ""
-
-#: src/EPGSearch.py:447
-msgid "Save search as AutoTimer"
-msgstr ""
-
-#: src/EPGSearch.py:450
-msgid "Open selected in IMDb"
-msgstr ""
-
-#: src/EPGSearch.py:451 src/EPGSearch.py:573
-msgid "Setup"
-msgstr ""
-
-#: src/EPGSearch.py:453
-msgid "EPG Search setup"
-msgstr ""
-
-#: src/EPGSearch.py:479
 #, python-format
 msgid "Could not read AutoTimer timer list: %s"
 msgstr ""
 
-#: src/EPGSearch.py:485 src/EPGSearch.py:541
-msgid "Select text to search for"
+msgid "Custom search"
 msgstr ""
 
-#: src/EPGSearch.py:543
-msgid "No history"
+msgid "Display name service as in bouquets"
 msgstr ""
 
-#: src/EPGSearch.py:569
-msgid "All services"
+msgid "EPG Search"
 msgstr ""
 
-#: src/EPGSearch.py:570
-msgid "All bouquets"
-msgstr ""
-
-#: src/EPGSearch.py:571
-msgid "Current bouquet"
-msgstr ""
-
-#: src/EPGSearch.py:572
-msgid "Current service"
-msgstr ""
-
-#: src/EPGSearch.py:576
-msgid "Search in..."
-msgstr ""
-
-#: src/EPGSearch.py:600
-msgid "Searching..."
-msgstr ""
-
-#: src/EPGSearch.py:800 src/EPGSearchSetup.py:145 src/__init__.py:184
-msgid "include"
-msgstr ""
-
-#: src/EPGSearch.py:818 src/EPGSearchSetup.py:76
-msgid "Cancel"
-msgstr ""
-
-#: src/EPGSearch.py:819 src/EPGSearchSetup.py:77
-msgid "OK"
-msgstr ""
-
-#: src/EPGSearch.py:832
-msgid "Select a timer to search"
-msgstr ""
-
-#: src/EPGSearch.py:855
-msgid "Channel Selection"
-msgstr ""
-
-#: src/EPGSearch.py:877
-msgid "Search"
-msgstr ""
-
-#: src/EPGSearchSetup.py:50
-msgid "EPGSearch Setup"
-msgstr ""
-
-#: src/EPGSearchSetup.py:89
-msgid "Search scope"
-msgstr ""
-
-#: src/EPGSearchSetup.py:89
-msgid ""
-"Control where to search in the EPG. When 'all bouquets' is set, all "
-"bouquets are searched, even if 'Enable multiple bouquets' is disabled."
-msgstr ""
-
-#: src/EPGSearchSetup.py:92
-msgid "Default scope when asked"
-msgstr ""
-
-#: src/EPGSearchSetup.py:92
-msgid "Sets the default search scope when the user is asked."
-msgstr ""
-
-#: src/EPGSearchSetup.py:94
-msgid "Show orbital position"
-msgstr ""
-
-#: src/EPGSearchSetup.py:94
-msgid "Show satellite orbital positions in the search results."
-msgstr ""
-
-#: src/EPGSearchSetup.py:96
-msgid "Search type"
-msgstr ""
-
-#: src/EPGSearchSetup.py:96
-msgid ""
-"Set type of match used to compare program titles with the search string."
-msgstr ""
-
-#: src/EPGSearchSetup.py:97
-msgid "Search strictness"
-msgstr ""
-
-#: src/EPGSearchSetup.py:97
-msgid "Is the search case-sensitive or case-insensitive?"
-msgstr ""
-
-#: src/EPGSearchSetup.py:98
-msgid "Show in plugin browser"
-msgstr ""
-
-#: src/EPGSearchSetup.py:98
-msgid ""
-"Enable this to allow access to EPG Search from within the plugin browser."
-msgstr ""
-
-#: src/EPGSearchSetup.py:99
-msgid "Length of history"
-msgstr ""
-
-#: src/EPGSearchSetup.py:99
-msgid ""
-"Maximum number of entries in the search history. Set this to 0 to disable "
-"search history."
-msgstr ""
-
-#: src/EPGSearchSetup.py:100
-msgid "Search encoding"
-msgstr ""
-
-#: src/EPGSearchSetup.py:100
-msgid "Choose the encoding type for searches, helpful for foreign languages."
-msgstr ""
-
-#: src/EPGSearchSetup.py:128 src/plugin.py:56
 msgid "EPGSearch"
 msgstr ""
 
-#: src/EPGSearchSetup.py:139
-msgid "Filter results by source"
+msgid "EPGSearch Setup"
 msgstr ""
 
-#: src/EPGSearchSetup.py:139
-msgid ""
-"Include or exclude results depending on their source (e.g. by satellite)"
+msgid "Encoding Search to EPG"
 msgstr ""
 
-#: src/EPGSearchSetup.py:142
-msgid "Include/exclude sources"
+msgid "Enter text to search for"
 msgstr ""
 
-#: src/EPGSearchSetup.py:142
-msgid ""
-"Use source restrictions below to only include results from the sources, or "
-"exclude them."
+msgid "Export selected as AutoTimer"
 msgstr ""
 
-#: src/EPGSearchSetup.py:143
-msgid "Number of inclusions/exclusions"
+msgid "History"
 msgstr ""
 
-#: src/EPGSearchSetup.py:143
-msgid "Number of filters for inclusion/exclusion of results"
+msgid "How many entries to keep in the search history at most. 0 disables history entirely!"
 msgstr ""
 
-#: src/EPGSearchSetup.py:146
-msgid "Include results from"
+msgid "If 'Search only bouquets' is enabled, show service name as in bouquets for renamed services."
 msgstr ""
 
-#: src/EPGSearchSetup.py:148
-msgid "Exclude results from"
+msgid "If this setting is enabled, searching EPG in only services in user bouquets."
 msgstr ""
 
-#: src/EPGSearchSetup.py:149
-msgid "Include/exclude search results from this type of source"
+msgid "If this setting is enabled, the plugin adds a \"Search\" Button to the regular EPG."
 msgstr ""
 
-#: src/__init__.py:30 src/__init__.py:31
-msgid "all services"
+msgid "If this setting is enabled, the plugin adds picons."
 msgstr ""
 
-#: src/__init__.py:30 src/__init__.py:31
-msgid "all bouquets"
+msgid "Import from AutoTimer"
 msgstr ""
 
-#: src/__init__.py:30 src/__init__.py:31
-msgid "current bouquet"
+msgid "Import from EPG"
 msgstr ""
 
-#: src/__init__.py:30 src/__init__.py:31
-msgid "current service"
+msgid "Import from Timer"
 msgstr ""
 
-#: src/__init__.py:30
-msgid "ask user"
+msgid "Length of History"
 msgstr ""
 
-#: src/__init__.py:32
-msgid "partial match"
+msgid "List of history is cleared !"
 msgstr ""
 
-#: src/__init__.py:32
-msgid "exact match"
+msgid "Lookup in TMBD"
 msgstr ""
 
-#: src/__init__.py:32
-msgid "title starts with"
+msgid "New Search"
 msgstr ""
 
-#: src/__init__.py:33
+msgid "No history !"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Open selected in IMDb"
+msgstr ""
+
+msgid "Partnerbox Entries"
+msgstr ""
+
+msgid "Save search as AutoTimer"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search EPG by title event"
+msgstr ""
+
+msgid "Search event in EPG"
+msgstr ""
+
+msgid "Search for TMDb info"
+msgstr ""
+
+msgid "Search only bouquets"
+msgstr ""
+
+msgid "Search strictness"
+msgstr ""
+
+msgid "Search type"
+msgstr ""
+
+msgid "Search type for filter"
+msgstr ""
+
+msgid "Select a timer to search"
+msgstr ""
+
+msgid "Select action:"
+msgstr ""
+
+msgid "Select channel"
+msgstr ""
+
+msgid "Select text to search for"
+msgstr ""
+
+msgid "Select type for filter search. Press button P +/- for show/hide filter in description after search."
+msgstr ""
+
+msgid "Select type for search, \"partial match\" for the most extensive search."
+msgstr ""
+
+msgid "Select type: 'Search and Select channel' or 'Search'."
+msgstr ""
+
+msgid "Select whether or not you want to enforce case correctness."
+msgstr ""
+
+msgid "Setup"
+msgstr ""
+
+msgid "Timers list"
+msgstr ""
+
+msgid "Type blue Button"
+msgstr ""
+
+msgid "Use Picons"
+msgstr ""
+
+msgid "Zap to selected service"
+msgstr ""
+
 msgid "case-insensitive search"
 msgstr ""
 
-#: src/__init__.py:33
 msgid "case-sensitive search"
 msgstr ""
 
-#: src/__init__.py:63
-msgid "disabled"
+msgid "choice (Search and standard)"
 msgstr ""
 
-#: src/__init__.py:73
-msgid "DVB-T Terrestrial services"
+msgid "exact match"
 msgstr ""
 
-#: src/__init__.py:75
-msgid "DVB-C Cable services"
+msgid "only Search"
 msgstr ""
 
-#: src/__init__.py:184
-msgid "exclude"
+msgid "partial match"
 msgstr ""
 
-#: src/plugin.py:56
-msgid "Search EPG"
-msgstr ""
-
-#. TRANSLATORS: EPGSearch title in EventInfo dialog (does not require further user interaction)
-#. TRANSLATORS: %s inserts a non-printing character and is only used to control the sort order of these WHERE_EVENTINFO entries in Screens.ButtonSetup. Please leave it at the start of the translation string.
-#: src/plugin.py:63
-#, python-format
-msgid "%ssearch EPG"
-msgstr ""
-
-#. TRANSLATORS: EPGSearch search from search history in EventInfo dialog (requires the user to select a history item to search for)
-#. TRANSLATORS: %s inserts a non-printing character and is only used to control the sort order of these WHERE_EVENTINFO entries in Screens.ButtonSetup. Please leave it at the start of the translation string.
-#: src/plugin.py:71
-#, python-format
-msgid "%ssearch EPG from history..."
-msgstr ""
-
-#. TRANSLATORS: EPGSearch title in MovieList (does not require further user interaction)
-#: src/plugin.py:78 src/plugin.py:79
 msgid "search EPG"
 msgstr ""
 
-#. TRANSLATORS: EPGSearch search from search history in MovieList (requires the user to select a history item to search for)
-#: src/plugin.py:86 src/plugin.py:87
-msgid "search EPG from history..."
+msgid "search EPG..."
+msgstr ""
+
+msgid "title starts with"
 msgstr ""
