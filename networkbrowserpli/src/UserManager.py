@@ -1,17 +1,15 @@
 # -*- coding: utf-8 -*-
 # for localized messages
-from __future__ import absolute_import
-from .__init__ import _
+from Plugins.SystemPlugins.NetworkBrowser.__init__ import _
 from Screens.Screen import Screen
 from Components.Sources.StaticText import StaticText
 from Components.Pixmap import Pixmap
 from Components.ActionMap import ActionMap
 from Components.Sources.List import List
-
 from Tools.LoadPixmap import LoadPixmap
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS, SCOPE_SKIN_IMAGE
-from .UserDialog import UserDialog
-from os import unlink, listdir, path as os_path
+from Plugins.SystemPlugins.NetworkBrowser.UserDialog import UserDialog
+import os
 
 class UserManager(Screen):
 	skin = """
@@ -62,13 +60,13 @@ class UserManager(Screen):
 
 	def updateList(self):
 		self.list = []
-		for file in listdir('/etc/enigma2'):
+		for file in os.listdir('/etc/enigma2'):
 			if file.endswith('.cache'):
 				if file == 'networkbrowser.cache':
 					continue
 				else:
 					hostpng = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "SystemPlugins/NetworkBrowser/icons/host.png"))
-					self.list.append(( file[:-6], 'edit', file, hostpng ))
+					self.list.append(( file[:-6],'edit',file,hostpng ))
 		self["config"].setList(self.list)
 
 	def exit(self):
@@ -79,15 +77,14 @@ class UserManager(Screen):
 		if cur:
 			returnValue = cur[1]
 			hostinfo = cur[0]
-			if returnValue == "edit":
-				self.session.open(UserDialog, self.skin_path, hostinfo)
+			if returnValue is "edit":
+				self.session.open(UserDialog, self.skin_path,hostinfo)
 
 	def delete(self, returnValue = None):
 		cur = self["config"].getCurrent()
 		if cur:
-			returnValue = cur[2]
-			cachefile = '/etc/enigma2/' + returnValue.strip()
-			if os_path.exists(cachefile):
-				unlink(cachefile)
+			try:
+				os.unlink('/etc/enigma2/' + cur[2].strip())
 				self.updateList()
-
+			except:
+				pass
