@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: epg search Persian Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-11 10:58+0200\n"
-"PO-Revision-Date: 2014-11-22 20:45+0100\n"
+"POT-Creation-Date: 2021-04-16 19:06+0430\n"
+"PO-Revision-Date: 2012-07-25 22:08+0330\n"
 "Last-Translator: mehdi <mehdi_ar_yekta@yahoo.com>\n"
 "Language-Team: Persian Professionals <persianpros@yahoo.com>\n"
 "Language: \n"
@@ -18,30 +18,43 @@ msgstr ""
 "X-Poedit-Language: Persian\n"
 "X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
 
-#, python-format
-msgid " (%d min)"
+msgid "%e/%m, %H:%M"
 msgstr ""
 
-#, python-format
-msgid " (%s%d min)"
+#. TRANSLATORS: EPGSearch title in EventInfo dialog (does not require further user interaction)
+#. TRANSLATORS: %s inserts a non-printing character and is only used to control the sort order of these WHERE_EVENTINFO entries in Screens.ButtonSetup. Please leave it at the start of the translation string.
+#, fuzzy, python-format
+msgid "%ssearch EPG"
+msgstr "جستجوی یک برنامه راهنمای الکترونیک"
+
+#. TRANSLATORS: EPGSearch search from search history in EventInfo dialog (requires the user to select a history item to search for)
+#. TRANSLATORS: %s inserts a non-printing character and is only used to control the sort order of these WHERE_EVENTINFO entries in Screens.ButtonSetup. Please leave it at the start of the translation string.
+#, fuzzy, python-format
+msgid "%ssearch EPG from history..."
+msgstr "جستجوی برنامه راهنمای الکترونیک"
+
+msgid "Add AutoTimer"
 msgstr ""
 
-msgid "Add \"Search event in EPG\" to channel menu"
-msgstr ""
-
-msgid "Add \"Search event in EPG\" to event menu"
-msgstr ""
-
-msgid "Add \"Search\" Button to EPG"
-msgstr ""
-
-msgid "Add timer"
+msgid "Add Timer"
 msgstr "اضافه کردن تایمر"
 
-msgid "Adds \"Search event in EPG\" item into the channel selection context menu (needs restart GUI)"
+msgid "Add a record timer for highlighted event"
 msgstr ""
 
-msgid "Adds \"Search event in EPG\" item into the event menu (needs restart GUI)"
+msgid "Add a zap timer for highlighted event"
+msgstr ""
+
+msgid "Add an AutoTimer for highlighted event"
+msgstr ""
+
+msgid "Add/remove/edit timer for highlighted event"
+msgstr ""
+
+msgid "All bouquets"
+msgstr ""
+
+msgid "All services"
 msgstr ""
 
 msgid "Cancel"
@@ -50,69 +63,77 @@ msgstr "لغو کردن"
 msgid "Channel Selection"
 msgstr "انتخاب کانال"
 
-msgid "Choice list"
+msgid "Choose the encoding type for searches, helpful for foreign languages."
 msgstr ""
 
-msgid "Choice list EPGSearch"
+msgid "Close dialog"
 msgstr ""
 
-msgid "Choice list RED Button"
+msgid "Control where to search in the EPG. When 'all bouquets' is set, all bouquets are searched, even if 'Enable multiple bouquets' is disabled."
 msgstr ""
-
-msgid "Choosing an encoding. \"UTF-8\" to search for EPG cyrillic."
-msgstr ""
-
-#, fuzzy
-msgid "Clear history"
-msgstr "بدون پیشینه"
 
 #, python-format
 msgid "Could not read AutoTimer timer list: %s"
 msgstr "%s نمی توانست لیست تایمر پلاگین تایمر خودکار را بخواند"
 
-msgid "Custom search"
+msgid "Current bouquet"
 msgstr ""
 
-msgid "Display name service as in bouquets"
+msgid "Current service"
+msgstr ""
+
+msgid "DVB-C"
+msgstr ""
+
+msgid "DVB-C Cable services"
+msgstr ""
+
+msgid "DVB-T"
+msgstr ""
+
+msgid "DVB-T Terrestrial services"
+msgstr ""
+
+msgid "Default scope when asked"
 msgstr ""
 
 msgid "EPG Search"
 msgstr "جستجو برنامه راهنمای الکترونیک"
 
 #, fuzzy
+msgid "EPG Search setup"
+msgstr "جستجو برنامه راهنمای الکترونیک"
+
 msgid "EPGSearch"
-msgstr "جستجو برنامه راهنمای الکترونیک"
+msgstr ""
 
-#, fuzzy
 msgid "EPGSearch Setup"
-msgstr "جستجو برنامه راهنمای الکترونیک"
+msgstr ""
+
+msgid "Enable this to allow access to EPG Search from within the plugin browser."
+msgstr ""
 
 #, fuzzy
-msgid "Encoding Search to EPG"
-msgstr "جستجوی یک برنامه راهنمای الکترونیک"
+msgid "Enter new search"
+msgstr "وارد کردن یک متن به منظور جستجو برای "
 
 msgid "Enter text to search for"
 msgstr "وارد کردن یک متن به منظور جستجو برای "
 
-msgid "Export selected as AutoTimer"
-msgstr "صادر کردن منتخب به عنوان یک تایمر خودکار "
-
-msgid "History"
-msgstr "پیشینه"
-
-msgid "How many entries to keep in the search history at most. 0 disables history entirely!"
+msgid "Exclude results from"
 msgstr ""
 
-msgid "If 'Search only bouquets' is enabled, show service name as in bouquets for renamed services."
+#, fuzzy
+msgid "Exit EPG Search"
+msgstr "جستجو برنامه راهنمای الکترونیک"
+
+msgid "Filter results by source"
 msgstr ""
 
-msgid "If this setting is enabled, searching EPG in only services in user bouquets."
+msgid "IMDB search for highlighted event"
 msgstr ""
 
-msgid "If this setting is enabled, the plugin adds a \"Search\" Button to the regular EPG."
-msgstr ""
-
-msgid "If this setting is enabled, the plugin adds picons."
+msgid "IMDb Search"
 msgstr ""
 
 msgid "Import from AutoTimer"
@@ -124,29 +145,56 @@ msgstr "وارد کردن از برنامه راهنمای الکترونیک"
 msgid "Import from Timer"
 msgstr "وارد کردن از تایمر"
 
-msgid "Length of History"
+msgid "Include or exclude results depending on their source (e.g. by satellite)"
 msgstr ""
 
-msgid "List of history is cleared !"
+msgid "Include results from"
 msgstr ""
 
-msgid "Lookup in TMBD"
+msgid "Include/exclude search results from this type of source"
+msgstr ""
+
+msgid "Include/exclude sources"
+msgstr ""
+
+msgid "Is the search case-sensitive or case-insensitive?"
+msgstr ""
+
+#, fuzzy
+msgid "Length of history"
+msgstr "بدون پیشینه"
+
+msgid "Maximum number of entries in the search history. Set this to 0 to disable search history."
+msgstr ""
+
+msgid "Move down"
+msgstr ""
+
+msgid "Move down a page"
+msgstr ""
+
+msgid "Move up"
+msgstr ""
+
+msgid "Move up a page"
 msgstr ""
 
 msgid "New Search"
 msgstr "جستجوی جدید"
 
-#, fuzzy
-msgid "No history !"
+msgid "No history"
 msgstr "بدون پیشینه"
+
+msgid "Number of filters for inclusion/exclusion of results"
+msgstr ""
+
+msgid "Number of inclusions/exclusions"
+msgstr ""
 
 msgid "OK"
 msgstr "موزد تایید است"
 
 msgid "Open selected in IMDb"
-msgstr ""
-
-msgid "Partnerbox Entries"
 msgstr ""
 
 msgid "Save search as AutoTimer"
@@ -155,18 +203,19 @@ msgstr "ذخیره سازی جستجو به عنوان یک تایمر خودک�
 msgid "Search"
 msgstr "جستجو"
 
-msgid "Search EPG by title event"
+msgid "Search EPG"
+msgstr "جستجوی یک برنامه راهنمای الکترونیک"
+
+msgid "Search encoding"
 msgstr ""
 
 #, fuzzy
-msgid "Search event in EPG"
-msgstr "جستجوی یک برنامه راهنمای الکترونیک"
+msgid "Search in..."
+msgstr "جستجوی برنامه راهنمای الکترونیک"
 
-msgid "Search for TMDb info"
-msgstr ""
-
-msgid "Search only bouquets"
-msgstr ""
+#, fuzzy
+msgid "Search scope"
+msgstr "جستجو"
 
 msgid "Search strictness"
 msgstr ""
@@ -175,46 +224,62 @@ msgstr ""
 msgid "Search type"
 msgstr "جستجو"
 
-msgid "Search type for filter"
-msgstr ""
+#, fuzzy
+msgid "Searching..."
+msgstr "جستجو"
 
 msgid "Select a timer to search"
 msgstr "انتخاب یک تایمر برای جستجو "
 
-msgid "Select action:"
-msgstr ""
-
-msgid "Select channel"
-msgstr ""
-
 msgid "Select text to search for"
 msgstr "انتخاب یک متن برای جستجوی"
 
-msgid "Select type for filter search. Press button P +/- for show/hide filter in description after search."
+msgid "Set type of match used to compare program titles with the search string."
 msgstr ""
 
-msgid "Select type for search, \"partial match\" for the most extensive search."
-msgstr ""
-
-msgid "Select type: 'Search and Select channel' or 'Search'."
-msgstr ""
-
-msgid "Select whether or not you want to enforce case correctness."
+msgid "Sets the default search scope when the user is asked."
 msgstr ""
 
 msgid "Setup"
 msgstr ""
 
-msgid "Timers list"
+msgid "Setup menu"
 msgstr ""
 
-msgid "Type blue Button"
+msgid "Show AutoTimer list"
 msgstr ""
 
-msgid "Use Picons"
+msgid "Show detailed event information"
 msgstr ""
 
-msgid "Zap to selected service"
+msgid "Show in plugin browser"
+msgstr ""
+
+msgid "Show orbital position"
+msgstr ""
+
+msgid "Show satellite orbital positions in the search results."
+msgstr ""
+
+msgid "Show search history"
+msgstr ""
+
+msgid "Stream"
+msgstr ""
+
+msgid "Use source restrictions below to only include results from the sources, or exclude them."
+msgstr ""
+
+msgid "Zap to channel"
+msgstr ""
+
+msgid "all bouquets"
+msgstr ""
+
+msgid "all services"
+msgstr ""
+
+msgid "ask user"
 msgstr ""
 
 msgid "case-insensitive search"
@@ -223,24 +288,34 @@ msgstr ""
 msgid "case-sensitive search"
 msgstr ""
 
-msgid "choice (Search and standard)"
+msgid "current bouquet"
+msgstr ""
+
+msgid "current service"
+msgstr ""
+
+msgid "disabled"
 msgstr ""
 
 msgid "exact match"
 msgstr ""
 
-#, fuzzy
-msgid "only Search"
-msgstr "جستجو"
+msgid "exclude"
+msgstr ""
+
+msgid "include"
+msgstr ""
 
 msgid "partial match"
 msgstr ""
 
-#, fuzzy
+#. TRANSLATORS: EPGSearch title in MovieList (does not require further user interaction)
 msgid "search EPG"
-msgstr "جستجوی یک برنامه راهنمای الکترونیک"
+msgstr ""
 
-msgid "search EPG..."
+#. TRANSLATORS: EPGSearch search from search history in MovieList (requires the user to select a history item to search for)
+#, fuzzy
+msgid "search EPG from history..."
 msgstr "جستجوی برنامه راهنمای الکترونیک"
 
 msgid "title starts with"
